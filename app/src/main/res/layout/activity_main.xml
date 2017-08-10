@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="10dp"
-        android:textSize="8dp"
+        android:textSize="8sp"
         android:text="FEATURING" />
 
     <TextView
@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/featuringText01"
         android:layout_marginLeft="10dp"
-        android:textSize="8dp"
+        android:textSize="8sp"
         android:text="ALAN WEISS\nFAST COMPANY\nBON APETTI"
         android:textColor="#ffffff" />
 
