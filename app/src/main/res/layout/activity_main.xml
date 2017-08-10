@@ -33,37 +33,48 @@
         android:layout_alignParentBottom="true"
         android:background="#752a0202" />
 
-    <TextView
-        android:id="@+id/maintext01"
-        android:layout_width="wrap_content"
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="15dp"
-        android:layout_marginLeft="40dp"
-        android:text="National Geographic"
-        android:textColor="#ffffff"
-        android:textSize="10sp" />
+        android:orientation="vertical"
+        android:paddingBottom="10dp">
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@id/maintext01"
-        android:layout_centerHorizontal="true"
-        android:text="World's Best Stargazing Site"
-        android:textColor="#ffffff"
-        android:textSize="25sp" />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="World's Best Stargazing Site"
+            android:textColor="#ffffff"
+            android:textSize="25sp" />
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent">
+           <TextView
+               android:id="@+id/maintext01"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="40dp"
+               android:text="National Geographic"
+               android:textColor="#ffffff"
+               android:textSize="10sp" />
+           <TextView
+               android:id="@+id/textView2"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentBottom="true"
+               android:text=" 3 mins"
+               android:textColor="#BAB4B2"
+               android:textSize="10sp" />
+       </LinearLayout>
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="15dp"
-        android:layout_toRightOf="@id/maintext01"
-        android:text=" 3 mins"
-        android:textColor="#BAB4B2"
-        android:textSize="10sp" />
+    </LinearLayout>
+
+
+
 
     <ImageView
         android:layout_width="56dp"
